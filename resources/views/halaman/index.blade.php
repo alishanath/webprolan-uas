@@ -1,8 +1,8 @@
 @extends('layout/aplikasi')
 
 @section('konten')
-<h1>Halaman Depan</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus corporis architecto quia. Ipsum adipisci magnam ex, eaque a omnis dolorem!</p>
+<h1>UAS WPL</h1>
+<p>dibuat oleh Alisha Nathania Septianty</p>
 @endsection
 
     

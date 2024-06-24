@@ -6,7 +6,7 @@
         @csrf
         @method('put')
         <div class="mb-3">
-            <h1>Nomor Induk: {{ $data->nomor_induk }}</h1>
+            <h1>NIM: {{ $data->nomor_induk }}</h1>
         </div>
         <div class="mb-3">
             <label for="nama" class="form-label">Nama</label>

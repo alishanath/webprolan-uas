@@ -4,7 +4,7 @@
     <form method="post" action="/siswa" enctype="multipart/form-data">
         @csrf
         <div class="mb-3">
-            <label for="nomor_induk" class="form-label">Nomor Induk</label>
+            <label for="nomor_induk" class="form-label">NIM</label>
             <input type="text" class="form-control" name='nomor_induk' id="nomor_induk" value="{{ Session::get('nomor_induk')}}">
         </div>
         <div class="mb-3">

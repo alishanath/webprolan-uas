@@ -2,7 +2,7 @@
 
 @section('konten')    
 <h1>{{ $judul }}</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus corporis architecto quia. Ipsum adipisci magnam ex, eaque a omnis dolorem!</p>
+<p>Ini adalah tampilan kontak saya</p>
 <p>
     <ul>
         <li>Email: {{ $kontak['email']}}</li>

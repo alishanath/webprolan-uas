@@ -17,21 +17,21 @@ class SiswaSeeder extends Seeder
     {
         //
         DB::table('siswa')->insert([
-            'nama' => 'Ani',
-            'nomor_induk' => '1000',
-            'alamat' => 'Bantul',
+            'nama' => 'Aliya Putri Nurrahmani',
+            'nomor_induk' => '1122',
+            'alamat' => 'Patikraja',
             'created_at' => date('Y-m-d H:i:s')
         ]);
         DB::table('siswa')->insert([
-            'nama' => 'Budi',
-            'nomor_induk' => '1001',
-            'alamat' => 'Sleman',
+            'nama' => 'Devita Apriliani',
+            'nomor_induk' => '3344',
+            'alamat' => 'Metenggeng',
             'created_at' => date('Y-m-d H:i:s')
         ]);
         DB::table('siswa')->insert([
-            'nama' => 'Candra',
-            'nomor_induk' => '1002',
-            'alamat' => 'Gunungkidul',
+            'nama' => 'Esther Oktavia Hotoroe',
+            'nomor_induk' => '5566',
+            'alamat' => 'Berkoh',
             'created_at' => date('Y-m-d H:i:s')
         ]);
     }

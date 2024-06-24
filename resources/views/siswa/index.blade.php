@@ -1,15 +1,15 @@
 @extends('layout/aplikasi')
 
 @section('konten')
-    <a href="/siswa/create" class="btn btn-primary">+Tambah Data Siswa</a>
+    <a href="/siswa/create" class="btn btn-primary">+ Tambah Data Mahasiswa</a>
     <table class="table">
         <thead>
             <tr>
                 <th>Foto</th>
-                <th>Nomor Induk</th>
+                <th>NIM</th>
                 <th>Nama</th>
                 <th>Alamat</th>
-                <th>Aksi</th>
+                <th>Opsi</th>
             </tr>
         </thead>
         <tbody>
@@ -29,7 +29,7 @@
                         <form onsubmit="return confirm('Yakin mau hapus data?')" class='d-inline' action="{{ '/siswa/'.$item->nomor_induk }}" method='post'>
                         @csrf
                         @method('DELETE')
-                        <button class="btn btn-danger btn-sm" type="submit">Del</button>
+                        <button class="btn btn-danger btn-sm" type="submit">Delete</button>
                         </form>
                     </td>
                 </tr>

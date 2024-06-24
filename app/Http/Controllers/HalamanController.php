@@ -19,8 +19,8 @@ class HalamanController extends Controller
         $data = [
             'judul' => 'Ini Adalah Halaman Kontak',
             'kontak' => [
-                'email' => 'dirumahrafif@gmail.com',
-                'youtube' => 'Programming di Rumahrafif'
+                'email' => 'alishanathaniaseptianty@gmail.com',
+                'youtube' => 'alishanath'
             ]
         ];
         return view("halaman/kontak")->with($data);
